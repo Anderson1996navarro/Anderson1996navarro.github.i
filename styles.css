@@ -1,0 +1,231 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color:var(--total);
+    color:var(--rosa);
+    text-align: center;
+    padding: 2px;
+    height: 85px;
+    border-radius: 5px;
+    
+}
+
+.t-l{
+  
+  background:green;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  color:white;
+}
+
+
+.h1-t{
+
+  font-size: 37px;
+
+}
+
+
+
+.imagem-apresentacao img {
+    width: 100%;
+    height: auto;
+}
+.tipos-massagem img {
+  width: 100%;
+  height: auto;
+}
+
+
+.sobre, .tipos-massagem, .contato {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.tipos-massagem ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tipos-massagem li {
+    margin-bottom: 10px;
+}
+ul{
+    margin-top: 10px;
+}
+
+
+
+
+  
+.fa-solid{
+    color: white;
+    margin-right: 10px;
+  }
+  
+  
+  .f-total{
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-flow: wrap ;
+    background: rgb(159, 80, 238);
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border-radius: 5px;
+  
+  }
+  
+  .letras{
+    color: var(--rosa);
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    margin-top: 5px;
+  }
+  
+  #footer_copyright{
+  
+    color: white;
+    margin-top:10px;
+  }
+  
+  .link_iconos{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2px;
+    
+  
+  }
+  
+  #instagram{
+    color: #e4405f;
+    text-decoration: none;
+    
+  }
+  
+  #tiktok{
+    color: black;
+    text-decoration: none;
+  }
+  #icono-f{
+    color: blue;
+    text-decoration: none;
+  }
+  #facebook{
+    text-decoration: none;
+    color:black;
+  }
+  #letras-f{
+    font-size: 14px;
+    
+    margin-left: 5px;
+  }
+  
+  
+  
+  #letras-i{
+    font-size: 14px;
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  #letras-t{
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .texto-contratro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  p{
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  
+  :root{
+  
+    --rosa:rgb(240, 152, 166) ;
+    --total:rgb(159, 80, 238);
+    --intagra:linear-gradient(#7f37c9,#ff2992,#ff9807)
+  }
+
+  
+
+  i{
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  #whatsapp{
+    color: green;
+  }
+
+  .id-w{
+    text-decoration: none;
+  }
+
+  .id-e{
+    text-decoration: none;
+  }
+
+  #email{
+    color: blue;
+  }
+  .sub-preco{
+    font-size: 12px;
+    color: red;
+    text-decoration: line-through;
+  }
+
+  .avaliacao{
+    font-size: 15px;
+  }
+
+  .estrela{
+    color: goldenrod;
+    font-size: 19px;
+
+  }
+
+  .sobre button{
+    text-decoration: none;
+    color: var(--rosa);
+    background: var(--total);
+    border-radius: 15px;
+  }
+
+
+  button:hover{
+    border: none;
+    background: rgb(236, 123, 142);
+    cursor: pointer;
+    color: white;
+    
+}
+
