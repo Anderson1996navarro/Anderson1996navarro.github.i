@@ -36,7 +36,25 @@ header {
 
 }
 
+.email_menssagen{
+  font-size: 22px;
+}
 
+.btn{
+  height: 35px;
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  background: var(--total);
+  color:var(--rosa);
+}
+
+.container9{font-size: 15px; }
+
+.m-email{
+  align-items: center;
+  color:violet;
+}
 
 .imagem-apresentacao img {
     width: 100%;
