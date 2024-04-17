@@ -9,6 +9,7 @@ header, footer {
   color:var(--rosa);
   text-align: center;
   padding: 10px 0;
+  position: relative;
 }
 
 .container {
