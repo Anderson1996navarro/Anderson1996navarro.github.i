@@ -4,17 +4,19 @@ body {
   font-family: Arial, sans-serif;
 }
 
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 20px auto;
+  max-width: 400px;
 }
 
 .login-form {
-  width: 300px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -32,7 +34,6 @@ body {
 .input-group label {
   display: block;
   margin-bottom: 5px;
-  
 }
 
 .input-group input {
@@ -41,9 +42,12 @@ body {
   font-size: 16px;
   border-radius: 3px;
   border: 1px solid #ccc;
+  justify-content: center;
+  text-align: center;
+  
 }
 
-.btnt {
+button {
   width: 100%;
   padding: 10px;
   font-size: 16px;
@@ -54,36 +58,6 @@ body {
   cursor: pointer;
 }
 
-.btnt:hover {
+button:hover {
   background-color: #0056b3;
-}
-
-
-
-/* Responsive styles for smaller screens */
-@media only screen and (max-width: 768px) {
-/* Adjust header styles */
-.h1-t {
-    font-size: 24px; /* Decrease font size for smaller screens */
-}
-
-/* Adjust input field styles */
-input[type="text"], input[type="email"], input[type="number"], input[type="date"] {
-    width: 100%; /* Make input fields full width on smaller screens */
-    margin-bottom: 10px; /* Add some space between input fields */
-}
-}
-
-/* Responsive styles for smaller screens */
-@media only screen and (max-width: 480px) {
-/* Adjust footer styles */
-.f-total {
-    padding: 20px; /* Add padding to footer for better spacing on smaller screens */
-}
-
-/* Adjust footer link styles */
-.f-link {
-    display: block; /* Display footer links as block elements for better stacking */
-    margin-bottom: 10px; /* Add space between footer links */
-}
 }
