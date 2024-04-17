@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="styles.css">
+    
 
     <link rel="shortcut icon" href="massoterapia.ico" type="image/x-icon">
 
@@ -149,6 +150,16 @@
           </div>
       </div> 
   </footer>
+
+
+  <script>
+    document.getElementById('data_nascimento').addEventListener('invalid', function() {
+      this.setCustomValidity('Por favor, selecione sua data de nascimento.');
+    });
+  </script>
+  
+      <script src="cpf.js"></script>
+      <script src="cep.js"></script>
   
     </body>
 
