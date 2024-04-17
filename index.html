@@ -3,13 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>𝓛𝓞𝓖𝓘𝓝</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="massoterapia.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta property="og:title" content="𝒜𝓁𝑒𝓈𝓈𝒶𝓃𝒹𝓇𝒶 𝒮𝒸𝒶𝓅𝒾𝓂 𝑀𝒶𝓈𝓈𝑜𝓉𝑒𝓇𝒶𝓅𝑒𝓊𝓉" />
+	<meta property="og:description" content="vocês vão amar as massagem e seus benefícios" />
+	<meta property="og:url" content="https://65dfd7fa0c7658985d2329d3--ale-scapim-massoterapeuta.netlify.app/" />
+	<meta property="og:site_name" content="𝒜𝓁𝑒𝓈𝓈𝒶𝓃𝒹𝓇𝒶 𝒮𝒸𝒶𝓅𝒾𝓂" />
+	<meta property="article:published_time" content="2024-02-28T20:05:16+00:00" />
+	<meta property="article:modified_time" content="2024-02-28T20:05:20+00:00" />
+	<meta property="og:image" content="https://ale-masoterapia.netlify.app/4.png" />
+	<meta property="og:image:width" content="300" />
+	<meta property="og:image:height" content="300" />
+	<meta property="og:image:type" content="image/jpeg" />
+
+  <title>Login</title>
   <link rel="stylesheet" href="login.css">
 </head>
 <body>
+
   <header>
-    <h1>𝓛𝓞𝓖𝓘𝓝</h1>
-  </header>
+    <h1 class="h1-t">𝐋 𝐎 𝐆 𝐈 𝐍</h1>
+   
+</header>
   
   <div class="container">
    
@@ -20,34 +36,35 @@
                 <div class="form-group">
                   <div class="form-row">
                     <div class="col">
-                     <!-- <label>Nome:-->
+                     <label>Nome:
                       
                       <input type="text" name="name" class="form-control" placeholder="Nome" required >
                     </div>
+                    <label >CPF:</label>
                     <input type="text" id="cpf" name="cpf" required placeholder="Colocar seu CPF">
                     <!--<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">-->
                     <div class="col">
-                      <!--<label>E-mail:-->
+                      <label>E-mail:
                       <input type="email" name="email" class="form-control" placeholder="E-mail" >
                     </div>
                   </div>
                 </div>
                   <!-- Inicio do formulario -->
-              <!--<label>Cep:-->
+              <label>Cep:
               <input name="cep" type="text" id="cep3" value=""  maxlength="9" placeholder="Cep" class=".card" required
-                     onblur="pesquisacep(this.value);" /></label><br />
-             <!--<label>Rua:-->
-              <input name="rua" type="text" id="rua" placeholder="Rua automatico" required /></label><br />
-              <!--<label>Bairro:-->
-              <input name="bairro" type="text" id="bairro" placeholder="Barrio automatico" required /></label><br />
-              <!--<label>Cidade:-->
-              <input name="cidade" type="text" id="cidade" placeholder="Cidade automatico" required/></label><br />
-              <!--<label>Estado:-->
-              <input name="uf" type="text" id="uf" size="2" placeholder="Estado" required /></label><br />
-             <!-- <label>IBGE:-->
-              <input name="ibge" type="text" id="ibge" placeholder="IBGE automatico" required /></label><br />
-             <!-- <label>Whatshapp:-->
-                <input name="Whatshapp" type="number" id="Whatshapp" placeholder="Whatshapp" /></label><br><br>
+                     onblur="pesquisacep(this.value);" /></label>
+             <label>Rua:
+              <input name="rua" type="text" id="rua" placeholder="Rua automatico" required /></label>
+              <label>Bairro:
+              <input name="bairro" type="text" id="bairro" placeholder="Barrio automatico" required /></label>
+              <label>Cidade:
+              <input name="cidade" type="text" id="cidade" placeholder="Cidade automatico" required/></label>
+              <label>Estado:
+              <input name="uf" type="text" id="uf" size="2" placeholder="Estado" required /></label>
+             <label>IBGE:
+              <input name="ibge" type="text" id="ibge" placeholder="IBGE automatico" required /></label>
+             <label>Whatshapp:
+                <input name="Whatshapp" type="number" id="Whatshapp" placeholder="Whatshapp" /></label>
           
                  <label >Data de Nacimento:</label>
                   <input type="date" id="data_nascimento" name="data_nascimento" required >

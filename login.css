@@ -5,8 +5,8 @@ body {
 }
 
 header, footer {
-  background-color: #333;
-  color: #fff;
+  background-color:var(--total);
+  color:var(--rosa);
   text-align: center;
   padding: 10px 0;
 }
@@ -60,4 +60,10 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+:root{
+  --rosa:rgb(240, 152, 166) ;
+  --total:rgb(159, 80, 238);
+  --intagra:linear-gradient(#7f37c9,#ff2992,#ff9807)
 }
